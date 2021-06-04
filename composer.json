@@ -1,0 +1,19 @@
+{
+    "name": "htmllc/plugin-multiple-domain",
+    "repositories": [{
+        "type": "composer",
+        "url": "http://packages/"
+    }],
+    "provide": {
+        "htmllc/plugin-multiple-domain": "1.0.6"
+    },
+    "version": "1.0.6",
+    "description": "plugin-multiple-domain",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "multiple-domain"
+    }
+}
